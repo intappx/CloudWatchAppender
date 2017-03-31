@@ -64,9 +64,6 @@ namespace AWSAppender.CloudWatchLogs.Parsers
             {
                 case "message":
                 case "__cav_rest":
-                    if (!string.IsNullOrEmpty(_currentDatum.Message))
-                        break;
-
                     _currentDatum.Message = DefaultsOverridePattern ? DefaultMessage ?? value.sValue : value.sValue;
                     break;
 
