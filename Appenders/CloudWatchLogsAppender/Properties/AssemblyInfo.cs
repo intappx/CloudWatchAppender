@@ -34,4 +34,4 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("4.5.0")]
 [assembly: AssemblyFileVersion("4.5.0")]
-[assembly: AssemblyInformationalVersion("4.5.0-alpha")]
+[assembly: AssemblyInformationalVersion("4.5.0-alpha / https://github.com/intappx/cloudwatchappender / e921c91998a7c732e74b221f4d7e435477be7aaf / 04.04.2017 ")]
